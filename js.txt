@@ -29,8 +29,9 @@ Example: let age = prompt("Enter your age:"); would ask for input and store it i
 5. .length:
 
 Strings: .length returns the number of characters in a string.
-Example: var myString = "Hello, World!";
-         console.log(myString.length); // This will output 13
+Example:
+var myString = "Hello, World!";
+console.log(myString.length); // This will output 13
 
 6. slice();
 
@@ -39,3 +40,8 @@ Does not modify the original string.
 Takes two optional parameters:
 start: The index of the first character to include (inclusive). Default is 0 (beginning of the string).
 end: The index of the character to exclude (not included). Default is the end of the string. Negative values count from the end.
+Example:
+var str = "Hello World!";
+var newStr = str.slice(6, 11); // newStr will be "World!"
+var newStr2 = str.slice(6); // newStr2 will be "World!"
+var newStr3 = str.slice(1, -1); // newStr3 will be "ello, World"

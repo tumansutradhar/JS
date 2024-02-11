@@ -45,4 +45,24 @@ var str = "Hello World!";
 var newStr = str.slice(6, 11); // newStr will be "World!"
 var newStr2 = str.slice(6); // newStr2 will be "World!"
 var newStr3 = str.slice(1, -1); // newStr3 will be "ello, World"
-abc
+
+7. Changing Casing in Text:
+    7.1. .toUpperCase():
+
+    Return value: It returns a new string with all lowercase characters converted to uppercase. The original string is not modified.
+    Case sensitivity: It only affects lowercase characters (a-z). Uppercase characters (A-Z) and other characters like numbers, symbols, and whitespace remain unchanged.
+    Immutability: Since JavaScript strings are immutable, you cannot directly change the original string using toUpperCase(). You need to assign the returned value to a new variable.
+    Example:
+    let originalString = "Hello, World!";
+    originalString = originalString.toUpperCase();
+    console.log(originalString); // Outputs: "HELLO, WORLD!"
+
+    7.2. .toLowerCase():
+
+    Return value: It returns a new string with all uppercase characters converted to lowercase. The original string remains unchanged.
+    Case sensitivity: It only affects uppercase characters (A-Z). Lowercase characters (a-z) and other characters like numbers, symbols, and whitespace remain unchanged.
+    Immutability: Like other string methods in JavaScript, .toLowerCase() doesn't modify the original string. You need to assign the returned value to a new variable to keep the lowercase version.
+    Example:
+    let originalString = "Hello, World!";
+    originalString = originalString.toLowerCase();
+    console.log(originalString); // Outputs: "hello, world!"

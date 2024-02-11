@@ -45,3 +45,4 @@ var str = "Hello World!";
 var newStr = str.slice(6, 11); // newStr will be "World!"
 var newStr2 = str.slice(6); // newStr2 will be "World!"
 var newStr3 = str.slice(1, -1); // newStr3 will be "ello, World"
+abc

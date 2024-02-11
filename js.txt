@@ -1,0 +1,41 @@
+1. alert() Function:
+
+Syntax: alert("message");
+Example: alert("Hello World!");
+
+2. Data Types:
+
+String: Represents text data, enclosed in double or single quotes.
+Example: "Hello", 'World!'
+
+Number: Represents numerical values (whole numbers or decimals).
+Example: 123, 4.56
+
+Boolean: Represents logical values, either true or false.
+Example: true, false
+
+3. Variables:
+
+Purpose: Store data for later use.
+Syntax: var variableName = value; (older) or let variableName = value; (modern)
+Example: let name = "Tuman";
+
+4. prompt() Function:
+
+Purpose: Displays a popup that prompts the user for input.
+Syntax: prompt("message");
+Example: let age = prompt("Enter your age:"); would ask for input and store it in the age variable.
+
+5. .length:
+
+Strings: .length returns the number of characters in a string.
+Example: var myString = "Hello, World!";
+         console.log(myString.length); // This will output 13
+
+6. slice();
+
+Strings: Extracts a section of the string and returns it as a new string.
+Does not modify the original string.
+Takes two optional parameters:
+start: The index of the first character to include (inclusive). Default is 0 (beginning of the string).
+end: The index of the character to exclude (not included). Default is the end of the string. Negative values count from the end.

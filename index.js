@@ -138,3 +138,13 @@ function buyMilk(money) {
 }
 var newMilk = buyMilk(4);
 console.log(newMilk); //Output 2
+// Exercise start
+function bmiCalculator(weight, height) {
+    var bmi = weight / Math.pow(height, 2);
+    return Math.round(bmi);
+}
+var bmi = bmiCalculator(45, 147);
+console.log(bmi);
+// Exercise end
+
+// Random Number Generation: Building a Love Calculator

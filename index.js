@@ -125,7 +125,16 @@ getMilk(10); //Then the output is 10 times in one movement
 // Exercise start
 function buyMilk(money) {
     var numberOfMilk = Math.floor(money / 1.5);
-    alert("Buy" + numberOfMilk + "bottles of Milk")
+    alert("Buy" + numberOfMilk + "bottles of Milk");
 }
 buyMilk(5); //Output 3
 // Exercise end
+
+// Outputs & Return Values
+function buyMilk(money) {
+    var numberOfMilk = Math.floor(money / 1.5);
+    alert("Buy" + numberOfMilk + "bottles of Milk");
+    return money % 1.5; //Remainder Output 1
+}
+var newMilk = buyMilk(4);
+console.log(newMilk); //Output 2

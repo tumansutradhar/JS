@@ -66,3 +66,4 @@ var newStr3 = str.slice(1, -1); // newStr3 will be "ello, World"
     let originalString = "Hello, World!";
     originalString = originalString.toLowerCase();
     console.log(originalString); // Outputs: "hello, world!"
+

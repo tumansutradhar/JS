@@ -200,6 +200,7 @@ function fun() {
     console.log(addArray);
 }
 
+// Control Statements: While Loops
 function fun() {
     while (addNumber <= 100) {
         if (addNumber % 3 === 0 && addNumber % 5 === 0) {
@@ -216,4 +217,34 @@ function fun() {
     console.log(addArray);
 }
 
-// Control Statements: While Loops
+// 99 Bottles Challenge
+var numberOfBottles = 99;
+while (numberOfBottles >= 0) {
+    var bottleWord = "bottle";
+    if (numberOfBottles === 1) {
+        bottleWord = "bottles";
+    }
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+    console.log(numberOfBottles + " " + bottleWord + " of beer,");
+    console.log("Take one down, pass it around,");
+    numberOfBottles--;
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+}
+
+// Control Statements: For Loops
+function fun() {
+    for (var addNumber = 1; addNumber < 101; addNumber++) {
+        if (addNumber % 3 === 0 && addNumber % 5 === 0) {
+            addArray.push("FullFun");
+        } else if (addNumber % 3 === 0) {
+            addArray.push("Full");
+        } else if (addNumber % 5 === 0) {
+            addArray.push("Fun");
+        } else {
+            addArray.push(addNumber);
+        }
+    }
+    console.log(addArray);
+}
+
+// Fibonacci Code

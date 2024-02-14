@@ -148,3 +148,72 @@ console.log(bmi);
 // Exercise end
 
 // Random Number Generation: Building a Love Calculator
+prompt("What is your name?");
+prompt("What is their name?");
+var score = Math.random() * 100;
+score = Math.floor(score);
+alert("Your love score is " + score);
+
+// Control Statements: Using If-Else Condition & Logic
+prompt("What is your name?");
+prompt("What is their name?");
+var score = Math.random() * 100;
+score = Math.floor(score);
+if (score > 90) {
+    alert("Your love score is " + score + "% and you love each other");
+} else {
+    alert("Your love score is " + score + "%");
+}
+
+// Leap Year
+function leapYear(year) {
+    if (year % 4 === 0) {
+        if (year % 100 === 0) {
+            if (year % 400 === 0) {
+                return "Leap Year";
+            } else {
+                return "Not Leap Year";
+            }
+        } else {
+            return "Not Leap Year";
+        }
+    } else {
+        return "Not Leap Year";
+    }
+}
+
+// Arrays
+var list = [12, 23, 34, 45, 56];
+console.log(list);
+console.log(list.length);
+console.log(list[0]);
+
+var listNumber = prompt("Enter Number:");
+list.includes(listNumber)
+
+// Adding Elements and Intermediate Array Techniques
+var addArray = [];
+var addNumber = 1;
+function fun() {
+    addArray.push(addNumber);
+    addNumber++;
+    console.log(addArray);
+}
+
+function fun() {
+    while (addNumber <= 100) {
+        if (addNumber % 3 === 0 && addNumber % 5 === 0) {
+            addArray.push("FullFun");
+        } else if (addNumber % 3 === 0) {
+            addArray.push("Full");
+        } else if (addNumber % 5 === 0) {
+            addArray.push("Fun");
+        } else {
+            addArray.push(addNumber);
+        }
+        addNumber++;
+    }
+    console.log(addArray);
+}
+
+// Control Statements: While Loops
